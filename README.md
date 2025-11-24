@@ -1,4 +1,4 @@
-# Genomic Variant Classification & RAG Pipeline — Full README
+# Genomic Variant Classification & RAG Pipeline
 
 This repository contains two integrated assignments:
 
