@@ -212,11 +212,6 @@ You will see:
 - Top retrieved variants
 - Generated answer
 
-### 🌐 Run Streamlit App
-```bash
-streamlit run app.py
-```
-
 This launches a web UI where you can:
 - Submit genomic queries
 - View retrieved variants
