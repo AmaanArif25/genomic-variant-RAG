@@ -91,7 +91,7 @@ This will:
 Epoch 1/3: Training...
 Epoch 2/3: Training...
 Epoch 3/3: Training...
-🎯 Test Accuracy: 0.7857 (78.57%)
+🎯 Test Accuracy: 0.906 (90.6%)
 ```
 
 **Expected Training Time**
@@ -223,14 +223,6 @@ This launches a web UI where you can:
 - View generated insights
 
 ---
-
-## 📝 License
-
-This project is for educational purposes.
-
-## 🤝 Contributing
-
-Contributions welcome! Please open an issue or submit a pull request.
 
 ## 📧 Contact
 
