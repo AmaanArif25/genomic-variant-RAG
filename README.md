@@ -9,16 +9,16 @@ Both systems work independently but can also be combined for a hybrid workflow.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project provides:
 
-### ✅ Assignment 1 — BioBERT Variant Classifier
+### Assignment 1 — BioBERT Variant Classifier
 - Fine-tuning BioBERT on variant–disease association text
 - Training, evaluation, saving models
 - Command-line prediction interface
 
-### ✅ Assignment 2 — Genomic RAG System
+### Assignment 2 — Genomic RAG System
 - Embedding genomic variants
 - Storing & retrieving them using Pinecone
 - Generating responses based on retrieved evidence
@@ -26,7 +26,7 @@ This project provides:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 project/
 │
@@ -53,22 +53,22 @@ project/
 
 ---
 
-## 🧪 ASSIGNMENT 1 — BioBERT Variant Classification
+## ASSIGNMENT 1 — BioBERT Variant Classification
 
-### 1️⃣ Install Dependencies
+### 1️Install Dependencies
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Prepare Training Data
+### Prepare Training Data
 
 Place the JSON dataset as:
 ```
 Assignment1/variants.json
 ```
 
-### 3️⃣ Train the Model
+### Train the Model
 
 **Basic Training**
 ```bash
@@ -101,7 +101,7 @@ Epoch 3/3: Training...
 | CPU      | 30–45 minutes |
 | GPU      | 5–10 minutes |
 
-### 4️⃣ Make Predictions
+### Make Predictions
 
 **Interactive Mode**
 ```bash
@@ -121,9 +121,9 @@ python predict.py --query "BRCA1 c.5266dupC in ovarian?"
 
 ---
 
-## 🧬 ASSIGNMENT 2 — Genomic RAG Pipeline (Pinecone + Embeddings + Streamlit)
+## ASSIGNMENT 2 — Genomic RAG Pipeline (Pinecone + Embeddings + Streamlit)
 
-### 📦 Part 2: Install Dependencies (3 minutes)
+### Part 2: Install Dependencies (3 minutes)
 
 **2.1 Create & Install Requirements**
 ```bash
@@ -136,7 +136,7 @@ pip install -r requirements.txt
 python -c "import torch; import pinecone; import streamlit; print('✓ All packages installed')"
 ```
 
-### 🌲 Part 3: Pinecone Setup (3 minutes)
+### Part 3: Pinecone Setup (3 minutes)
 
 **3.1 Create Pinecone Account**
 1. Go to https://www.pinecone.io
@@ -155,7 +155,7 @@ PINECONE_API_KEY=your-real-key
 PINECONE_ENVIRONMENT=gcp-starter
 ```
 
-### 🧠 Part 4: Project Files
+### Part 4: Project Files
 
 Create the following files:
 - `config.py`
@@ -167,7 +167,7 @@ Create the following files:
 - `app.py`
 - `data/variants.json`
 
-### ⚙️ Part 5: Initialize the RAG Pipeline
+### Part 5: Initialize the RAG Pipeline
 
 **5.1 Setup Database**
 ```bash
@@ -219,6 +219,6 @@ This launches a web UI where you can:
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions or support, please open an issue in the repository.
